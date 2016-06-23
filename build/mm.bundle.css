@@ -7717,21 +7717,21 @@ em {
  */
 .bar-content {
   border-color: transparent;
-  background-color: #2196F3;
+  background-color: #f70;
   background-image: linear-gradient(0deg, transparent, transparent 50%, transparent 50%);
   color: #fff; }
   .bar-content .title {
     color: #fff; }
   .bar-content .button {
     border-color: transparent;
-    background-color: #2196F3;
+    background-color: #f70;
     color: #fff; }
     .bar-content .button:hover {
       color: #fff;
       text-decoration: none; }
     .bar-content .button.active, .bar-content .button.activated {
       border-color: transparent;
-      background-color: #2196F3;
+      background-color: #f70;
       box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
     .bar-content .button.button-clear {
       border-color: transparent;
@@ -8179,7 +8179,7 @@ input.mm-fileuploader-picker {
 
 .bar-side-menu {
   border-color: transparent;
-  background-color: #2196F3;
+  background-color: #f70;
   background-image: linear-gradient(0deg, transparent, transparent 50%, transparent 50%);
   color: #fff;
   height: 80px !important; }
@@ -8513,25 +8513,6 @@ a.wiki_edit_section {
 .mma-mod_wiki-subwiki-picker .item.item-selected .icon {
   font-size: 24px; }
 
-.qbehaviour_deferredcbm_actual_percentage {
-  font-weight: bold; }
-
-.qbehaviour_deferredcbm_judgementok {
-  font-weight: bold;
-  color: #080; }
-
-.qbehaviour_deferredcbm_slightlyunderconfident, .qbehaviour_deferredcbm_slightlyoverconfident {
-  font-weight: bold;
-  color: #600; }
-
-.qbehaviour_deferredcbm_underconfident, .qbehaviour_deferredcbm_overconfident {
-  font-weight: bold;
-  color: #c00; }
-
-.mma-qbehaviour-deferredcbm-certainty-title, .item.mma-qbehaviour-deferredcbm-certainty-title, .item.mma-qbehaviour-deferredcbm-certainty-title p {
-  font-weight: bold;
-  font-size: 16px; }
-
 .mma-qtype-ddimageortext-container mm-loading {
   position: absolute;
   left: 50%; }
@@ -8776,6 +8757,25 @@ a.wiki_edit_section {
 .mma-qtype-multianswer-container input[type="radio"], .mma-qtype-multianswer-container input[type="checkbox"] {
   margin-top: -4px;
   margin-right: 7px; }
+
+.qbehaviour_deferredcbm_actual_percentage {
+  font-weight: bold; }
+
+.qbehaviour_deferredcbm_judgementok {
+  font-weight: bold;
+  color: #080; }
+
+.qbehaviour_deferredcbm_slightlyunderconfident, .qbehaviour_deferredcbm_slightlyoverconfident {
+  font-weight: bold;
+  color: #600; }
+
+.qbehaviour_deferredcbm_underconfident, .qbehaviour_deferredcbm_overconfident {
+  font-weight: bold;
+  color: #c00; }
+
+.mma-qbehaviour-deferredcbm-certainty-title, .item.mma-qbehaviour-deferredcbm-certainty-title, .item.mma-qbehaviour-deferredcbm-certainty-title p {
+  font-weight: bold;
+  font-size: 16px; }
 
 .button.active, .button.activated {
   box-shadow: none;

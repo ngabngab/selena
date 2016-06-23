@@ -16,7 +16,7 @@
  */
 
 // Bar content.
-$bar-content-bg: #2196F3 !default;
+$bar-content-bg: #f70 !default;
 $bar-content-border: transparent !default;
 $bar-content-text: #fff !default;
 
@@ -1039,32 +1039,6 @@ a.wiki_edit_section {
 .mma-mod_wiki-subwiki-picker .item.item-selected .icon {
   font-size: 24px;
 }
-
-$mma-qbehaviour-deferredcbm-judgementok-color:  #080 !default;
-$mma-qbehaviour-deferredcbm-slightly-color:     #600 !default;
-$mma-qbehaviour-deferredcbm-confident-color:    #c00 !default;
-
-.qbehaviour_deferredcbm_actual_percentage {
-  font-weight: bold;
-}
-.qbehaviour_deferredcbm_judgementok {
-  font-weight: bold;
-  color: $mma-qbehaviour-deferredcbm-judgementok-color;
-}
-.qbehaviour_deferredcbm_slightlyunderconfident, .qbehaviour_deferredcbm_slightlyoverconfident {
-  font-weight: bold;
-  color: $mma-qbehaviour-deferredcbm-slightly-color;
-}
-.qbehaviour_deferredcbm_underconfident, .qbehaviour_deferredcbm_overconfident {
-  font-weight: bold;
-  color: $mma-qbehaviour-deferredcbm-confident-color;
-}
-
-.mma-qbehaviour-deferredcbm-certainty-title, .item.mma-qbehaviour-deferredcbm-certainty-title, .item.mma-qbehaviour-deferredcbm-certainty-title p {
-	font-weight: bold;
-	font-size: 16px;
-}
-
 // Style ddimageortext content a bit. Almost all these styles are copied from Moodle.
 .mma-qtype-ddimageortext-container {
   mm-loading {
@@ -1445,3 +1419,29 @@ $mma-qbehaviour-deferredcbm-confident-color:    #c00 !default;
   }
 }
 
+
+
+$mma-qbehaviour-deferredcbm-judgementok-color:  #080 !default;
+$mma-qbehaviour-deferredcbm-slightly-color:     #600 !default;
+$mma-qbehaviour-deferredcbm-confident-color:    #c00 !default;
+
+.qbehaviour_deferredcbm_actual_percentage {
+  font-weight: bold;
+}
+.qbehaviour_deferredcbm_judgementok {
+  font-weight: bold;
+  color: $mma-qbehaviour-deferredcbm-judgementok-color;
+}
+.qbehaviour_deferredcbm_slightlyunderconfident, .qbehaviour_deferredcbm_slightlyoverconfident {
+  font-weight: bold;
+  color: $mma-qbehaviour-deferredcbm-slightly-color;
+}
+.qbehaviour_deferredcbm_underconfident, .qbehaviour_deferredcbm_overconfident {
+  font-weight: bold;
+  color: $mma-qbehaviour-deferredcbm-confident-color;
+}
+
+.mma-qbehaviour-deferredcbm-certainty-title, .item.mma-qbehaviour-deferredcbm-certainty-title, .item.mma-qbehaviour-deferredcbm-certainty-title p {
+	font-weight: bold;
+	font-size: 16px;
+}
