@@ -8,7 +8,7 @@
     "wsservice" : "moodle_mobile_app",
     "wsextservice" : "local_mobile",
     "demo_sites": {},
-	"siteurl" : "http://localhost/moodle31/",
+	"siteurl" : "http://sentrastudia.com/moodle31/",
     "gcmpn": "694767596569",
     "customurlscheme": "moodlemobile"
 }
