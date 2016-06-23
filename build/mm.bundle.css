@@ -7717,21 +7717,21 @@ em {
  */
 .bar-content {
   border-color: transparent;
-  background-color: #f70;
+  background-color: #2196F3;
   background-image: linear-gradient(0deg, transparent, transparent 50%, transparent 50%);
   color: #fff; }
   .bar-content .title {
     color: #fff; }
   .bar-content .button {
     border-color: transparent;
-    background-color: #f70;
+    background-color: #2196F3;
     color: #fff; }
     .bar-content .button:hover {
       color: #fff;
       text-decoration: none; }
     .bar-content .button.active, .bar-content .button.activated {
       border-color: transparent;
-      background-color: #f70;
+      background-color: #2196F3;
       box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
     .bar-content .button.button-clear {
       border-color: transparent;
@@ -8179,7 +8179,7 @@ input.mm-fileuploader-picker {
 
 .bar-side-menu {
   border-color: transparent;
-  background-color: #f70;
+  background-color: #2196F3;
   background-image: linear-gradient(0deg, transparent, transparent 50%, transparent 50%);
   color: #fff;
   height: 80px !important; }
@@ -8456,6 +8456,24 @@ ion-popover-view {
   padding-top: 10px;
   padding-bottom: 10px; }
 
+.mma-mod_survey-darkbg {
+  background-color: #f5f5f5; }
+
+.mma-mod_survey-padding-top {
+  padding-top: 20px; }
+
+textarea.mma-mod_survey-textarea {
+  height: 100px;
+  border: 1px solid #ddd; }
+
+select.mma-mod_survey-select {
+  background-color: transparent;
+  padding-left: 0px;
+  padding-right: 32px;
+  max-width: 100%; }
+  select.mma-mod_survey-select .mma-mod_survey-defaultoption {
+    display: none; }
+
 .wiki-toc {
   border: 1px solid #bbb;
   background: #eee;
@@ -8494,24 +8512,6 @@ a.wiki_edit_section {
 
 .mma-mod_wiki-subwiki-picker .item.item-selected .icon {
   font-size: 24px; }
-
-.mma-mod_survey-darkbg {
-  background-color: #f5f5f5; }
-
-.mma-mod_survey-padding-top {
-  padding-top: 20px; }
-
-textarea.mma-mod_survey-textarea {
-  height: 100px;
-  border: 1px solid #ddd; }
-
-select.mma-mod_survey-select {
-  background-color: transparent;
-  padding-left: 0px;
-  padding-right: 32px;
-  max-width: 100%; }
-  select.mma-mod_survey-select .mma-mod_survey-defaultoption {
-    display: none; }
 
 .qbehaviour_deferredcbm_actual_percentage {
   font-weight: bold; }
